@@ -1,11 +1,11 @@
 <?php
 
-namespace Acme\ExamplePlugin;
+namespace Codesarc\SalespersonPlugin;
 
 use Sylius\Bundle\CoreBundle\Application\SyliusPluginTrait;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-final class AcmeExamplePlugin extends Bundle
+final class CodesarcSalespersonPlugin extends Bundle
 {
     use SyliusPluginTrait;
 }

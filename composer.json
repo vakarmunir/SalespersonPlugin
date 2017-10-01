@@ -1,7 +1,7 @@
 {
-    "name": "sylius/plugin-skeleton",
+    "name": "codesarc/salesperson-plugin",
     "type": "sylius-plugin",
-    "description": "Acme example plugin for Sylius.",
+    "description": "Salesperson for Sylius.",
     "license": "MIT",
     "require": {
         "php": "^5.6|^7.0",
@@ -25,8 +25,8 @@
     },
     "autoload": {
         "psr-4": {
-            "Acme\\ExamplePlugin\\": "src/",
-            "Tests\\Acme\\ExamplePlugin\\": "tests/"
+            "Codesarc\\SalespersonPlugin\\": "src/",
+            "Tests\\Codesarc\\SalespersonPlugin\\": "tests/"
         }
     }
 }

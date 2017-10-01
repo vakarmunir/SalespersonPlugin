@@ -1,6 +1,6 @@
 <?php
 
-namespace Acme\ExamplePlugin\Controller;
+namespace Codesarc\SalespersonPlugin\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Response;
@@ -24,7 +24,7 @@ final class GreetingController extends Controller
      */
     public function dynamicallyGreetAction($name)
     {
-        return $this->render('@AcmeExample/dynamic_greeting.html.twig', ['greeting' => $this->getGreeting($name)]);
+        return $this->render('@CodesarcSalesperson/dynamic_greeting.html.twig', ['greeting' => $this->getGreeting($name)]);
     }
 
     /**

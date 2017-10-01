@@ -1,11 +1,11 @@
-acme_example_static_welcome:
+codesarc_salesperson_static_welcome:
     path: /static-welcome/{name}
     defaults:
-        _controller: AcmeExamplePlugin:Greeting:staticallyGreet
+        _controller: CodesarcSalespersonPlugin:Greeting:staticallyGreet
         name: ~
 
-acme_example_dynamic_welcome:
+codesarc_salesperson_dynamic_welcome:
     path: /dynamic-welcome/{name}
     defaults:
-        _controller: AcmeExamplePlugin:Greeting:dynamicallyGreet
+        _controller: CodesarcSalespersonPlugin:Greeting:dynamicallyGreet
         name: ~
