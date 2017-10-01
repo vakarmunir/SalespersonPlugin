@@ -1,6 +1,6 @@
 /composer.lock
 /vendor/
-node_modules/
+/node_modules/
 /etc/build/*
 !/etc/build/.gitkeep
 
